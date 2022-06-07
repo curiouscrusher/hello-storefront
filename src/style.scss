@@ -1,0 +1,49 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
+
+body {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  padding: 1em 0;
+
+  &__main-nav {
+    max-width: 1400px;
+  }
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 95%;
+  padding-bottom: 2em;
+  padding-top: 2em;
+
+  @media (min-width: 1200px) {
+    max-width: 1100px;
+  }
+}
+
+.product-page {
+  display: flex;
+  justify-content: space-between;
+
+  &__images {
+    flex: 0 0 40%;
+  }
+
+  &__details {
+    flex: 0 1 50%;
+  }
+}
+
+.footer {
+  background-color: #ccc;
+  padding: 4em 0 2em;
+  display: flex;
+  justify-content: center;
+}
